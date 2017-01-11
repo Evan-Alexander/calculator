@@ -35,11 +35,11 @@ $(document).ready(function() {
 });
 
 $(document).ready(function() {
-  $("form#subtract").submit(function(event) {
+  $("form#multiply").submit(function(event) {
     event.preventDefault();
-    var number1 = parseInt($("#subtract1").val());
-    var number2 = parseInt($("#subtract2").val());
-    var result = subtract(number1, number2);
-    $("#sub-output").text(result);
+    var number1 = parseInt($("#multiply1").val());
+    var number2 = parseInt($("#multiply2").val());
+    var result = multiply(number1, number2);
+    $("#mult-output").text(result);
   });
 });
